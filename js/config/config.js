@@ -1,6 +1,4 @@
-import {
-    setCookieWithExpireHour
-} from 'https://jscroot.github.io/cookie/croot.js';
+import {setCookieWithExpireHour} from 'https://jscroot.github.io/cookie/croot.js';
 
 //token
 export function getTokenFromAPI() {
