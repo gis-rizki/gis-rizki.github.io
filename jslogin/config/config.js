@@ -1,4 +1,6 @@
-import {setCookieWithExpireHour} from 'https://jscroot.github.io/cookie/croot.js';
+import {
+    setCookieWithExpireHour
+} from 'https://jscroot.github.io/cookie/croot.js';
 
 //token
 export function getTokenFromAPI() {
@@ -49,7 +51,7 @@ function ResponsePostLogin(response) {
     if (response && response.token) {
         console.log('Token User:', response.token);
         setCookieWithExpireHour('user_token', response.token, 2);
-        window.location.href = 'https://gis-rizki.github.io/login';
+        window.location.href = 'index.html';
         alert("Selamat Datang")
     } else {
         alert('Login gagal. Silakan coba lagi.');
