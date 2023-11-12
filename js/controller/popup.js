@@ -5,7 +5,13 @@ import {URLGeoJson,clickpopup,urlPostGCF} from '../template/template.js';
 import {insertMarker,deleteMarker} from './marker.js';
 import {setInner,textBlur,onClick,getValue,setValue} from 'https://jscroot.github.io/element/croot.js';
 import {postWithToken} from "https://jscroot.github.io/api/croot.js";
+import { setCookieWithExpireHour, getCookie } from 'https://jscroot.github.io/cookie/croot.js';
 
+
+export function getTokenFromCookies(cookieName) {
+  const token = getCookie(cookieName);
+  return token;
+}
 
 export function onClosePopupClick() {
   overlay.setPosition(undefined);

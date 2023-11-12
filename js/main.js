@@ -7,7 +7,6 @@ import {onClick} from 'https://jscroot.github.io/element/croot.js';
 import {getAllCoordinates} from './controller/cog.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
 
-
 onClick('popup-closer',onClosePopupClick);
 onClick('insertmarkerbutton',onSubmitMarkerClick);
 onClick('hapusbutton',onDeleteMarkerClick);
