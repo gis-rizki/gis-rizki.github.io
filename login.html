@@ -45,7 +45,7 @@
         <div class="bg-gray-100 p-5 flex rounded-2xl shadow-lg max-w-3xl">
             <div class="md:w-1/2 px-5">
                 <h2 class="text-2xl font-bold text-[#002D74]">Login Gaiss</h2>
-                <form class="mt-6" id="formlogin">
+                <div id="app">
                     <div>
                         <label class="block text-gray-700">Username</label>
                         <input type="text" id="username" placeholder="Enter Email Address"
@@ -59,9 +59,19 @@
                         focus:bg-white focus:outline-none" required>
                     </div>
 
-                    <button id="submit" class="w-full block bg-blue-500 hover:bg-blue-400 focus:bg-blue-400 text-white font-semibold rounded-lg
-                    px-4 py-3 mt-6">Log In</button>
-                </form>
+                    <button class="button is-block is-link is-fullwidth is-medium w-full block bg-blue-500 hover:bg-blue-400 focus:bg-blue-400 text-white font-semibold
+                    rounded-lg
+                    px-4 py-3 mt-6" type="submit" id="button"
+                        onclick="PostSignUp()">
+                        Login
+                    </button>
+
+                </div>
+
+                <div class="container">
+                    <div class="notification is-white" id="pesan"></div>
+                </div>
+
 
             </div>
 
@@ -127,7 +137,7 @@
         </div>
     </section>
 </body>
-<script type="module" src="./jslogin/controller/controller.js"></script>
+<script type="module" src="./jslogin/post.js"></script>
 
 <!-- </body> -->
 
