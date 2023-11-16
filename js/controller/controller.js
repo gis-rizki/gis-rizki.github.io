@@ -1,7 +1,19 @@
-import {setInner,addChild,getValue} from "https://jscroot.github.io/element/croot.js";
-import {setCookieWithExpireHour} from 'https://jscroot.github.io/cookie/croot.js';
-import {tableTemplate,tableRowClass,tableTag} from "../template/template.js";
-import {map} from '../config/configpeta.js';
+import {
+    setInner,
+    addChild,
+    getValue
+} from "https://jscroot.github.io/element/croot.js";
+import {
+    setCookieWithExpireHour
+} from 'https://jscroot.github.io/cookie/croot.js';
+import {
+    tableTemplate,
+    tableRowClass,
+    tableTag
+} from "../template/template.js";
+import {
+    map
+} from '../config/configpeta.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
 
 export function getTokenFromAPI() {
