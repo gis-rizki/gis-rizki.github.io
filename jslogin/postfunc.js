@@ -3,7 +3,7 @@ import {setInner,getValue} from "https://jscroot.github.io/element/croot.js";
 import {setCookieWithExpireHour} from "https://jscroot.github.io/cookie/croot.js";
 
 export default function PostSignUp() {
-    let target_url = "https://asia-southeast2-lofty-mark-401904.cloudfunctions.net/backendgis5";
+    let target_url = "https://asia-southeast2-lofty-mark-401904.cloudfunctions.net/logingeogis";
     let tokenkey = "token";
     let tokenvalue = "667b744d1548f57e9da7c8247ae5d3e41abd1ce983cb2aab329f3789d9e0f307";
     let datainjson = {
