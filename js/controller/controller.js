@@ -181,7 +181,7 @@ export function ResponsePostLogin(response) {
     if (response && response.token) {
         console.log('Token User:', response.token);
         setCookieWithExpireHour('Login', response.token, 3);
-        window.location.href = 'https://gis-rizki.github.io/';
+        window.location.href = 'https://gis-rizki.github.io/index.html';
         alert("Selamat Datang")
     } else {
         alert('Login gagal. Silakan coba lagi.');
