@@ -1,7 +1,18 @@
-import {setInner,addChild} from "https://jscroot.github.io/element/croot.js";
-import {setCookieWithExpireHour} from 'https://jscroot.github.io/cookie/croot.js';
-import {tableTemplate,tableRowClass,tableTag} from "../template/template.js";
-import {map} from '../config/configpeta.js';
+import {
+    setInner,
+    addChild
+} from "https://jscroot.github.io/element/croot.js";
+import {
+    setCookieWithExpireHour
+} from 'https://jscroot.github.io/cookie/croot.js';
+import {
+    tableTemplate,
+    tableRowClass,
+    tableTag
+} from "../template/template.js";
+import {
+    map
+} from '../config/configpeta.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
 
 export function getTokenFromAPI() {
@@ -181,7 +192,7 @@ export function ResponsePostLogin(response) {
     if (response && response.token) {
         console.log('Token User:', response.token);
         setCookieWithExpireHour('Login', response.token, 3);
-        window.location.href = 'https://gis-rizki.github.io/index.html';
+        window.location.href = 'https://gis-rizki.github.io/';
         alert("Selamat Datang")
     } else {
         alert('Login gagal. Silakan coba lagi.');
