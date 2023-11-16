@@ -1,6 +1,4 @@
-import {
-    getCookie
-} from "https://jscroot.github.io/cookie/croot.js";
+import {getCookie} from "https://jscroot.github.io/cookie/croot.js";
 
 export let URLGeoJson = "https://us-central1-lofty-mark-401904.cloudfunctions.net/GISSMT5PROJECT";
 export let urlPostGCF = "https://asia-southeast2-lofty-mark-401904.cloudfunctions.net/GeoPost";
