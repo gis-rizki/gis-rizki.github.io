@@ -1,6 +1,15 @@
-import {setInner,addChild} from "https://jscroot.github.io/element/croot.js";
-import {tableTemplate,tableRowClass,tableTag} from "../template/template.js";
-import {map} from '../config/peta.js';
+import {
+    setInner,
+    addChild
+} from "https://jscroot.github.io/element/croot.js";
+import {
+    tableTemplate,
+    tableRowClass,
+    tableTag
+} from "../template/template.js";
+import {
+    map
+} from '../config/configpeta.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
 
 
