@@ -5,7 +5,7 @@ import {map} from '../config/configpeta.js';
 import Draw from 'https://cdn.skypack.dev/ol/interaction/Draw.js';
 
 export function getTokenFromAPI() {
-    const tokenUrl = "https://us-central1-noted-slice-401902.cloudfunctions.net/Login-Gis";
+    const tokenUrl = "https://asia-southeast2-lofty-mark-401904.cloudfunctions.net/logingeogis";
     fetch(tokenUrl)
         .then(response => response.json())
         .then(tokenData => {
